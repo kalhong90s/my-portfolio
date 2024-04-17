@@ -36,7 +36,7 @@ function Education() {
       <div className="py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
-            <div className="w-3/4 h-3/4">
+            <div className="w-2/3 h-2/3">
               <AnimationLottie animationPath={lottieFile} />
             </div>
           </div>
@@ -56,7 +56,7 @@ function Education() {
                       />
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
-                          {education.duration}
+                            Completed in {education.completed}
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">

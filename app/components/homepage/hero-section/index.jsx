@@ -4,7 +4,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { FaFacebook, FaTwitterSquare ,FaLine} from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
@@ -61,11 +61,11 @@ function HeroSection() {
               <SiLeetcode size={30} />
             </Link>
             <Link
-              href={personalData.twitter}
+              href={personalData.line}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <FaTwitterSquare size={30} />
+              <FaLine size={30} />
             </Link>
           </div>
 
@@ -114,23 +114,51 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
+                <span className="text-amber-300">Java</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
+                <span className="text-amber-300">TypeScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Express</span>
+                <span className="text-amber-300">express</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
+                <span className="text-amber-300">nestJS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">reactJS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">nextJS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">prisma</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Golang</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">goFiber</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">goEcho</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">htmx</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">kafka</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Prometheus</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Grafana</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">K6</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">OracleDB</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">PostgreSQL</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+                <span className="text-amber-300">Kubernetes</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Nginx</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Azure</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
