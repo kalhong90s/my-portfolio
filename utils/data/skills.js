@@ -1,24 +1,38 @@
+import Prisma from "@/public/svg/skills/prisma.svg";
+
 export const skillsData = [
-  'HTML',
-  'CSS',
+  'JAVA',
   'Javascript',
   'Typescript',
+  'Express',
+  'Nest JS',
   'React',
   'Next JS',
+  'HTML',
+  'CSS',
   'Tailwind',
-  'MongoDB',
-  'MySQL',
-  'PostgreSQL',
-  'Git',
-  'AWS',
   'Bootstrap',
-  'Docker',
-  'Go',
-  'Figma',
-  'Firebase',
   'MaterialUI',
+  'Prisma',
+  'Go',
+  'GoFiber',
+  'Echo',
+  'htmx',
+  'Kafka',
+  'MongoDB',
+  'PostgreSQL',
+  'OracleDB',
+  'Prometheus',
+  'Grafana',
+  'Grafana k6',
+  'Jenkins',
+  'Docker',
+  'Kubernetes',
   'Nginx',
-  'Strapi'
+  'Azure',
+  'Git',
+  'Figma',
+  'Swagger',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -27,10 +41,10 @@ export const skillsData = [
 
 // AVAILABLE SKILLS
 
-/* 
+/*
   HTML
   CSS
-  JS 
+  JS
   React
   Next JS
   Nuxt JS

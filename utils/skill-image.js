@@ -29,6 +29,7 @@ import go from '/public/svg/skills/go.svg';
 import graphql from '/public/svg/skills/graphql.svg';
 import haxe from '/public/svg/skills/haxe.svg';
 import html from '/public/svg/skills/html.svg';
+import htmx from '/public/svg/skills/htmx.svg';
 import illustrator from '/public/svg/skills/illustrator.svg';
 import ionic from '/public/svg/skills/ionic.svg';
 import java from '/public/svg/skills/java.svg';
@@ -53,6 +54,7 @@ import php from '/public/svg/skills/php.svg';
 import picsart from '/public/svg/skills/picsart.svg';
 import postgresql from '/public/svg/skills/postgresql.svg';
 import premierepro from '/public/svg/skills/premierepro.svg';
+import Prisma from '/public/svg/skills/prisma.svg';
 import python from '/public/svg/skills/python.svg';
 import pytorch from '/public/svg/skills/pytorch.svg';
 import react from '/public/svg/skills/react.svg';
@@ -72,6 +74,18 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import express from '/public/svg/skills/express.svg';
+import Nest from '/public/svg/skills/nestjs.svg';
+import fiber from '/public/svg/skills/fiber.svg';
+import echo from '/public/svg/skills/echo.svg';
+import kafka from '/public/svg/skills/kafka.svg';
+import oracledb from '/public/svg/skills/oracledb.svg';
+import prometheus from '/public/svg/skills/prometheus.svg';
+import grafana from '/public/svg/skills/grafana.svg';
+import k6 from '/public/svg/skills/grafana-k6.svg';
+import jenkins from '/public/svg/skills/jenkins.svg';
+import kubernetes from '/public/svg/skills/kubernets.svg';
+import swagger from '/public/svg/skills/swagger.svg';
 
 
 export const skillsImage = (skill) => {
@@ -81,6 +95,8 @@ export const skillsImage = (skill) => {
       return gcp;
     case 'html':
       return html;
+    case 'htmx':
+      return htmx;
     case 'photoshop':
       return photoshop;
     case 'docker':
@@ -185,6 +201,8 @@ export const skillsImage = (skill) => {
       return opencv;
     case 'premiere pro':
       return premierepro;
+    case 'prisma':
+      return Prisma;
     case 'pytorch':
       return pytorch;
     case 'selenium':
@@ -225,7 +243,42 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'nest js':
+      return Nest;
+      case 'express':
+      return express;
+    case 'gofiber':
+      return fiber;
+    case 'echo':
+      return echo;
+    case 'kafka':
+      return kafka;
+    case 'oracledb':
+      return oracledb;
+    case 'prometheus':
+      return prometheus;
+    case 'grafana':
+      return grafana;
+    case 'grafana k6':
+      return k6;
+    case 'jenkins':
+      return jenkins;
+    case 'kubernetes':
+      return kubernetes;
+    case 'swagger':
+      return swagger;
     default:
       break;
   }
 }
+
+// import Nest from '/public/svg/skills/nestjs.svg';
+// import fiber from '/public/svg/skills/fiber.svg';
+// import echo from '/public/svg/skills/echo.svg';
+// import kafka from '/public/svg/skills/kafka.svg';
+// import oracledb from '/public/svg/skills/oracledb.svg';
+// import prometheus from '/public/svg/skills/prometheus.svg';
+// import grafana from '/public/svg/skills/grafana.svg';
+// import k6 from '/public/svg/skills/grafana-k6.svg';
+// import jenkins from '/public/svg/skills/jenkins.svg';
+// import kubernetes from '/public/svg/skills/kubernetes.svg';
